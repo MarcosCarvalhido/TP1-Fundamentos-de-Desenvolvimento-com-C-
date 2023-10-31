@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP1 C Sharp Questão 1", "TP1 C Sharp Questão 1\TP1 C Sharp Questão 1.csproj", "{49BAC121-3ECE-429D-9984-0C1CA537B44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP1 C Sharp Questão 2", "TP1 C Sharp Questão 2\TP1 C Sharp Questão 2.csproj", "{9F90EB50-D9B3-421C-A52C-FA70DA18DBF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49BAC121-3ECE-429D-9984-0C1CA537B44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BAC121-3ECE-429D-9984-0C1CA537B44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BAC121-3ECE-429D-9984-0C1CA537B44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BAC121-3ECE-429D-9984-0C1CA537B44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F90EB50-D9B3-421C-A52C-FA70DA18DBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F90EB50-D9B3-421C-A52C-FA70DA18DBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F90EB50-D9B3-421C-A52C-FA70DA18DBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F90EB50-D9B3-421C-A52C-FA70DA18DBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65EC7275-E57B-40C2-B1C6-137CE1187F76}
+	EndGlobalSection
+EndGlobal

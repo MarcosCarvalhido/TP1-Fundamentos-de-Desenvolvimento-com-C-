@@ -1,0 +1,14 @@
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\bin\Debug\net6.0\TP1 C Sharp Questão 1.exe
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\bin\Debug\net6.0\TP1 C Sharp Questão 1.deps.json
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\bin\Debug\net6.0\TP1 C Sharp Questão 1.runtimeconfig.json
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\bin\Debug\net6.0\TP1 C Sharp Questão 1.dll
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\bin\Debug\net6.0\TP1 C Sharp Questão 1.pdb
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\TP1 C Sharp Questão 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\TP1 C Sharp Questão 1.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\TP1 C Sharp Questão 1.AssemblyInfo.cs
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\TP1 C Sharp Questão 1.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\TP1 C Sharp Questão 1.dll
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\refint\TP1 C Sharp Questão 1.dll
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\TP1 C Sharp Questão 1.pdb
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\TP1 C Sharp Questão 1.genruntimeconfig.cache
+C:\Users\marco\source\repos\TP1-Fundamentos-de-Desenvolvimento-com-C#\TP1 C Sharp Questão 1\obj\Debug\net6.0\ref\TP1 C Sharp Questão 1.dll
