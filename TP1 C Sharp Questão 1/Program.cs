@@ -7,72 +7,114 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        protected static int Homens { get; set; }
+        protected static int Mulheres { get; set; }
+        protected static int Crianças { get; set; }
+        protected static int Idosos { get; set; }
+        protected static int Total { get; set; }
+        public static void Main(string[] args)
         {
-            ColetarDados();
+            ExibirOpções();
+            {
+                bool loop = true;
+                int i = 1;
+                while (loop)
+                {
+                    string entrada = ColetarEntrada(i);
+                    if (ValidarEntrada(entrada)) 
+                    {
+                        ContabilizarDados(entrada);
+                        i++;
+                    }
+                    loop = VerificarLoop(entrada);
+                }
+                GerarTotal();
+                ExibirDados();
+            }
         }
-        protected static void ColetarDados()
+        protected static string ColetarEntrada(int i)
+        {
+            string entrada;
+            Console.Write($"Entrada {i}: ");
+            entrada = Console.ReadLine();
+            entrada = entrada.ToUpper();
+            return entrada;
+        }
+        protected static bool VerificarLoop(string entrada)
         {
             bool loop = true;
-            int i = 1;
-            List<string> lista = new List<string>();
+            if (entrada == "F")
+            {
+                loop = false;
+            }
+            return loop;
+        }
+        protected static bool ValidarEntrada(string entrada)
+        {
+            bool valido = false;
+            if ((entrada == "H") || (entrada == "M") || (entrada == "C") || (entrada == "I") || (entrada == "F"))
+            {
+                valido = true;
+            }
+            else
+            {
+                ExibirErro();
+            }
+            return valido;
+        }
+        protected static void ContabilizarDados(String entrada)
+        {
+
+            switch (entrada)
+            {
+                case "H":
+                    {
+                        Homens++;
+                        break;
+                    }
+                case "M":
+                    {
+                        Mulheres++;
+                        break;
+                    }
+                case "C":
+                    {
+                        Crianças++;
+                        break;
+                    }
+                case "I":
+                    {
+                        Idosos++;
+                        break;
+                    }
+            }
+        }
+        protected static void ExibirDados()
+        {
+            Console.WriteLine($"O total de entras foram de {Total}, sendo compostas por:");
+            Console.WriteLine($"{Homens} Homens, que representão {GerarPorcentagem(Total, Homens)}% do total.");
+            Console.WriteLine($"{Mulheres} Mulheres, que representão {GerarPorcentagem(Total, Mulheres)}% do total.");
+            Console.WriteLine($"{Crianças} Crianças, que representão {GerarPorcentagem(Total, Crianças)}% do total.");
+            Console.WriteLine($"{Idosos} Idosos, que representão {GerarPorcentagem(Total, Idosos)}% do total.");
+        }
+        protected static void ExibirOpções()
+        {
             Console.WriteLine("Escolha uma das seguintes opções:");
             Console.WriteLine(" homem (\"H\"), mulher (\"M\"), criança (\"C\") ou idoso (\"I\").");
             Console.WriteLine(" Digite (\"F\") para terminar! ");
-            while (loop)
-            {
-                string entrada;
-                Console.Write($"Entrada {i}: ");
-                entrada = Console.ReadLine();
-                entrada = entrada.ToUpper();
-                if ((entrada == "H") || (entrada == "M") || (entrada == "C") || (entrada == "I"))
-                {
-                    lista.Add(entrada);
-                    i++;
-                }
-                else if (entrada == "F")
-                {
-                    loop = false;
-                }
-                else
-                {
-                    Console.WriteLine("Entrada Invalida!");
-                }
-            }
-            ExibirDados(lista);
         }
-        protected static void ExibirDados(List<string> lista)
+        protected static void ExibirErro()
         {
-            int homens = lista.Count(lista.FindAll(Predicate "H"));
-            int mulheres = 0;
-            int crianças = 0;
-            int idosos = 0;
-            foreach (var item in lista)
-            {
-                //switch (item)
-                //{
-                //    case "H":
-                //        {
-                //            homens++;
-                //            break;
-                //        }
-                //    case "M":
-                //        {
-                //            mulheres++;
-                //            break;
-                //        }
-                //    case "C":
-                //        {
-                //            crianças++;
-                //            break;
-                //        }
-                //    case "I":
-                //        {
-                //            idosos++;
-                //            break;
-                //        }
-                //}
-            }
+            Console.WriteLine("Entrada Invalida! tente novamente.");
+            ExibirOpções();
+        }
+        protected static double GerarPorcentagem(int total, int grupo)
+        {
+            return ((double)grupo / (double)total) * 100;
+        }
+        protected static void GerarTotal()
+        {
+            Total = Homens + Mulheres + Crianças + Idosos;
         }
     }
 }

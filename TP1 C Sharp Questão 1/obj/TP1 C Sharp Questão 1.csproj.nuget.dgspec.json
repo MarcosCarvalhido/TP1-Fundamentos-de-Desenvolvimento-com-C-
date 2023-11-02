@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcos.carvalhido\\Documents\\GitHub\\TP1-Fundamentos-de-Desenvolvimento-com-C-\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj": {}
+    "C:\\Users\\marco\\source\\repos\\TP1-Fundamentos-de-Desenvolvimento-com-C#\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcos.carvalhido\\Documents\\GitHub\\TP1-Fundamentos-de-Desenvolvimento-com-C-\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj": {
+    "C:\\Users\\marco\\source\\repos\\TP1-Fundamentos-de-Desenvolvimento-com-C#\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcos.carvalhido\\Documents\\GitHub\\TP1-Fundamentos-de-Desenvolvimento-com-C-\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\TP1-Fundamentos-de-Desenvolvimento-com-C#\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj",
         "projectName": "TP1 C Sharp Questão 1",
-        "projectPath": "C:\\Users\\marcos.carvalhido\\Documents\\GitHub\\TP1-Fundamentos-de-Desenvolvimento-com-C-\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj",
-        "packagesPath": "C:\\Users\\marcos.carvalhido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcos.carvalhido\\Documents\\GitHub\\TP1-Fundamentos-de-Desenvolvimento-com-C-\\TP1 C Sharp Questão 1\\obj\\",
+        "projectPath": "C:\\Users\\marco\\source\\repos\\TP1-Fundamentos-de-Desenvolvimento-com-C#\\TP1 C Sharp Questão 1\\TP1 C Sharp Questão 1.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\source\\repos\\TP1-Fundamentos-de-Desenvolvimento-com-C#\\TP1 C Sharp Questão 1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\marco\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\marcos.carvalhido\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
