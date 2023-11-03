@@ -13,7 +13,6 @@
             try
             {
             int sequencia = ColetarSequencia();
-
             double posição1 = ColetarEntrada(1);
             double posição2 = ColetarEntrada(2);
             double constante = CalcularConstante(posição1, posição2);
