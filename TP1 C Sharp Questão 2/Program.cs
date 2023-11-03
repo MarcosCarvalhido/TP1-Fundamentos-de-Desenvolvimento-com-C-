@@ -10,8 +10,36 @@ namespace TP1_C_Sharp_Questão_2
     {
         static void Main(string[] args)
         {
-            Calcular calcular = new Calcular();
-            calcular.Montante();
+            double capital;
+            double juros;
+            int meses;
+            double montante;
+            capital = SetCapital();
+            juros = SetJuros();
+            meses = SetMeses();
+
+            montante = capital * (Math.Pow((1 + juros), meses));
+
+            LerResposta(Math.Round(montante));
+        }
+        protected static double SetCapital()
+        {
+            Console.Write("Digite a quantidade de capital: ");
+            return double.Parse(Console.ReadLine());
+        }
+        protected static double SetJuros()
+        {
+            Console.Write("Digite a taixa de juros: ");
+            return double.Parse(Console.ReadLine()) / 100;
+        }
+        protected static int SetMeses()
+        {
+            Console.Write("Digite a quantidade de meses: ");
+            return int.Parse(Console.ReadLine());
+        }
+        protected static void LerResposta(double resposta)
+        {
+            Console.WriteLine("O Montante calculado apartir dos valores informados é: R$" + resposta);
         }
     }
 }
